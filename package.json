@@ -1,0 +1,23 @@
+{
+  "name": "upsert-map",
+  "version": "0.0.0",
+  "description": "A Map with an upsert method and gc support",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/upsert-map.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/upsert-map/issues"
+  },
+  "homepage": "https://github.com/mafintosh/upsert-map"
+}
