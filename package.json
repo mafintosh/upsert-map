@@ -1,6 +1,6 @@
 {
   "name": "upsert-map",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A Map with an upsert method and gc support",
   "main": "index.js",
   "dependencies": {},
