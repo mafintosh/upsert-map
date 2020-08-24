@@ -5,14 +5,15 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "standard": "^14.3.4"
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/upsert-map.git"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard && tape test.js"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
