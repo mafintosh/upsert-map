@@ -60,12 +60,12 @@ module.exports = class UpsertMap {
   }
 
   has (key) {
-    this._gc()
+    this.gc()
     return this._map.has(key)
   }
 
   delete (key) {
-    this._gc()
+    this.gc()
     this._map.delete(key)
   }
 
